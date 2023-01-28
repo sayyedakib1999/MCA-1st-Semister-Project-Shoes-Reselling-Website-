@@ -1,1 +1,1 @@
-# MCA-1st-Semister-Project-Shoes-Reselling-Website-
+# MCA-1st-Semister-Project-Shoes-Reselling-Website-MiniProject
