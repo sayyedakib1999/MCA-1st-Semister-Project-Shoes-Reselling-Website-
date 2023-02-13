@@ -1,0 +1,321 @@
+                                                                * {
+                                                                    margin: 0;
+                                                                    padding: 0;
+                                                                    list-style: none;
+                                                                    text-decoration: none;
+                                                                    font-weight: bold;
+                                                                    box-sizing: border-box;
+                                                                }
+                                                                
+                                                                body {
+                                                                    background-color: rgb(255, 253, 253);
+                                                                }
+                                                                /*Navigation Bar Starts*/
+                                                                
+                                                                .nav {
+                                                                    width: 100%;
+                                                                    height: 80px;
+                                                                    background: #e82f1e;
+                                                                    display: flex;
+                                                                    align-items: center;
+                                                                    justify-content: space-between;
+                                                                    padding: 0 100px;
+                                                                    box-shadow: 5px 5px 50px #000000;
+                                                                    margin-bottom: 10px;
+                                                                }
+                                                                
+                                                                .logo {
+                                                                    font-size: 28px;
+                                                                    font-weight: bold;
+                                                                    color: black;
+                                                                    border-radius: 2px #000;
+                                                                    border-color: #000;
+                                                                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                                                }
+                                                                
+                                                                .logo a {
+                                                                    color: rgb(0, 0, 0);
+                                                                    text-decoration: none;
+                                                                    display: flex;
+                                                                }
+                                                                
+                                                                .logo a:hover {
+                                                                    color: black;
+                                                                    text-decoration: none;
+                                                                }
+                                                                
+                                                                .nav-bar ul {
+                                                                    display: flex;
+                                                                }
+                                                                
+                                                                .nav-bar ul li a {
+                                                                    display: block;
+                                                                    color: rgb(0, 0, 0);
+                                                                    font-size: 20px;
+                                                                    padding: 10px 25px;
+                                                                    text-decoration: none;
+                                                                    border-radius: 100px;
+                                                                    font-family: Gazpacho;
+                                                                    transition: 0.2s;
+                                                                    margin: 0 5px;
+                                                                }
+                                                                
+                                                                .nav-bar ul li a:hover {
+                                                                    color: rgb(255, 255, 255);
+                                                                    background-color: black;
+                                                                    text-decoration: none;
+                                                                    box-shadow: 5px 5px 30px #000000;
+                                                                }
+                                                                
+                                                                .nav-bar .login a:hover {
+                                                                    background-color: white;
+                                                                    color: black;
+                                                                    box-shadow: 5px 5px 30px #000000;
+                                                                    border-radius: 100px;
+                                                                }
+                                                                
+                                                                .img {
+                                                                    height: 10px;
+                                                                    width: 10px;
+                                                                }
+                                                                /*Navigation Bar Ends*/
+                                                                /*Cards Start*/
+                                                                
+                                                                .Container {
+                                                                    display: flex;
+                                                                    padding: 5px;
+                                                                    flex-wrap: wrap;
+                                                                    width: fit-content;
+                                                                    align-content: center;
+                                                                }
+                                                                
+                                                                .card {
+                                                                    display: flex;
+                                                                    height: unset;
+                                                                    width: 18rem;
+                                                                    padding: 10px;
+                                                                    margin-top: 10px;
+                                                                    box-shadow: 5px 5px 5px #000000;
+                                                                    background-color: #e82f1e;
+                                                                    color: black;
+                                                                }
+                                                                
+                                                                .card:hover {
+                                                                    background-color: black;
+                                                                    color: #e82f1e;
+                                                                    box-shadow: 5px 5px 5px #e82f1e;
+                                                                }
+                                                                
+                                                                .card .btn {
+                                                                    background-color: #000;
+                                                                    border-color: black;
+                                                                    align-items: unset;
+                                                                }
+                                                                
+                                                                .card .btn:hover {
+                                                                    background-color: #e82f1e;
+                                                                    border-color: #e82f1e;
+                                                                }
+                                                                
+                                                                .card .btn {
+                                                                    color: white;
+                                                                }
+                                                                
+                                                                .card-title {
+                                                                    font-weight: bold;
+                                                                }
+                                                                
+                                                                .card-title:hover {
+                                                                    font-weight: bold;
+                                                                    color: #ffffff;
+                                                                }
+                                                                /*Cards End*/
+                                                                /*Login form  start*/
+                                                                
+                                                                .lmain {
+                                                                    width: 400px;
+                                                                    margin: 100px auto 0px auto;
+                                                                }
+                                                                
+                                                                .log {
+                                                                    background-color: rgb(251, 176, 0);
+                                                                    font-family: gazpacho;
+                                                                    text-align: center;
+                                                                    font-size: 20px;
+                                                                    border-radius: 10px;
+                                                                    border: 1px solid black;
+                                                                    box-shadow: 12px 12px 10px #c18f2c;
+                                                                    color: black;
+                                                                }
+                                                                
+                                                                .login1 {
+                                                                    background-color: #e82f1e;
+                                                                    font-family: gazpacho;
+                                                                    text-align: center;
+                                                                    font-size: 20px;
+                                                                    border-radius: 10px;
+                                                                    border: 1px solid black;
+                                                                    box-shadow: 5px 5px 15px black;
+                                                                    color: black;
+                                                                }
+                                                                
+                                                                #lf {
+                                                                    font-family: gazpacho;
+                                                                    font-size: 18px;
+                                                                    font-style: bold;
+                                                                    color: rgb(0, 0, 0);
+                                                                }
+                                                                
+                                                                #lname {
+                                                                    border: 1px;
+                                                                    border-radius: 7px;
+                                                                    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+                                                                }
+                                                                
+                                                                #lsubmit {
+                                                                    width: 100px;
+                                                                    margin-top: 5px;
+                                                                    padding: 3px;
+                                                                    font-weight: 100;
+                                                                    font-family: gazpacho;
+                                                                    background-color: #ffffff;
+                                                                    border-radius: 5px;
+                                                                    box-shadow: 1px 1px 5px;
+                                                                }
+                                                                
+                                                                #lsubmit:hover {
+                                                                    background-color: black;
+                                                                    color: aliceblue;
+                                                                    width: 100px;
+                                                                    margin-top: 5px;
+                                                                    padding: 3px;
+                                                                    font-weight: 100;
+                                                                    font-family: gazpacho;
+                                                                    border-radius: 5px;
+                                                                    transition: cubic-bezier(1, 1, 1, 10);
+                                                                    box-shadow: 1px 1px 5px #e82f1e;
+                                                                }
+                                                                
+                                                                label {
+                                                                    font-family: gazpacho;
+                                                                    font-size: 18px;
+                                                                    font-style: bold;
+                                                                    color: black;
+                                                                }
+                                                                
+                                                                h2 {
+                                                                    text-align: center;
+                                                                    padding: 20px;
+                                                                    font-family: gazpacho;
+                                                                    color: rgb(0, 0, 0);
+                                                                }
+                                                                
+                                                                #log a {
+                                                                    color: rgb(255, 255, 255);
+                                                                    text-shadow: 1px 1px 2px #000000;
+                                                                }
+                                                                
+                                                                #log a:hover {
+                                                                    color: rgb(0, 0, 0);
+                                                                    text-shadow: 1px 1px 2px #e82f1e;
+                                                                }
+                                                                /*Login form  End*/
+                                                                /*Registration Form  Start*/
+                                                                
+                                                                .main {
+                                                                    width: 400px;
+                                                                    margin: 100px auto 0px auto;
+                                                                }
+                                                                
+                                                                h2 {
+                                                                    text-align: center;
+                                                                    padding: 20px;
+                                                                    font-family: gazpacho;
+                                                                    color: black;
+                                                                }
+                                                                
+                                                                .reg {
+                                                                    background-color: #e82f1e;
+                                                                    font-family: gazpacho;
+                                                                    text-align: center;
+                                                                    font-size: 20px;
+                                                                    border-radius: 10px;
+                                                                    border: 1px solid black;
+                                                                    box-shadow: 5px 5px 15px black;
+                                                                    color: black;
+                                                                }
+                                                                
+                                                                #regis {
+                                                                    margin: 40px;
+                                                                }
+                                                                
+                                                                label {
+                                                                    font-family: gazpacho;
+                                                                    font-size: 18px;
+                                                                    font-style: bold;
+                                                                }
+                                                                
+                                                                #name {
+                                                                    border: 1px;
+                                                                    border-radius: 7px;
+                                                                    box-shadow: inset 1px 1px 5px rgba(0, 0, 0, 0.3);
+                                                                }
+                                                                
+                                                                #submit {
+                                                                    width: 100px;
+                                                                    margin-top: 5px;
+                                                                    padding: 3px;
+                                                                    border-radius: 5px;
+                                                                    font-weight: 100;
+                                                                    font-family: gazpacho;
+                                                                    background-color: #ffffff;
+                                                                    border-radius: 5px;
+                                                                    box-shadow: 1px 1px 5px;
+                                                                }
+                                                                
+                                                                #submit:hover {
+                                                                    background-color: black;
+                                                                    color: aliceblue;
+                                                                    width: 100px;
+                                                                    margin-top: 5px;
+                                                                    padding: 3px;
+                                                                    font-weight: 100;
+                                                                    font-family: gazpacho;
+                                                                    border-radius: 5px;
+                                                                    transition: cubic-bezier(1, 1, 1, 10);
+                                                                    box-shadow: 1px 1px 5px #e82f1e;
+                                                                }
+                                                                
+                                                                #regis a {
+                                                                    color: rgb(255, 255, 255);
+                                                                    text-shadow: 1px 1px 2px #000000;
+                                                                }
+                                                                
+                                                                #regis a:hover {
+                                                                    color: rgb(0, 0, 0);
+                                                                    text-shadow: 1px 1px 2px #e82f1e;
+                                                                }
+                                                                /*Registration Form  End*/
+                                                                
+                                                                .footer {
+                                                                    height: 100px;
+                                                                    background: #000;
+                                                                    width: auto;
+                                                                }
+                                                                
+                                                                #carousel {
+                                                                    margin-top: 10px;
+                                                                    margin-bottom: 10px;
+                                                                    margin-left: 23%;
+                                                                    margin-right: 23%;
+                                                                    height: 50%;
+                                                                    width: 50%;
+                                                                }
+                                                                
+                                                                #carouselExampleControls {
+                                                                    margin-top: 10px;
+                                                                    margin-bottom: 10px;
+                                                                    margin-left: 25%;
+                                                                    margin-right: 25%;
+                                                                    width: 10;
+                                                                }
